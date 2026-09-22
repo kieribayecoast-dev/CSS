@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-ByteConnect - Landing Page</title>
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #222;
+        }
+
+        
+        header {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section {
+            background-color: white;
+            margin: 25px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #123c69;
+            border-bottom: 2px solid #123c69;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #285f8f;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        
+        #home {
+            text-align: center;
+        }
+
+        #home img {
+            width: 70%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        #home a {
+            display: inline-block;
+            background-color: #123c69;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        #home a:hover {
+            background-color: #285f8f;
+        }
+
+        /* About */
+        #about div {
+            background-color: #eef4fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 5px solid #123c69;
+        }
+
+        
+        .services-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            flex: 1;
+            min-width: 250px;
+            background-color: #eef4fa;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .service img {
+            width: 100%;
+            max-width: 250px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        th {
+            background-color: #123c69;
+            color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid #bbb;
+            padding: 12px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f5f9;
+        }
+
+        /* Lists */
+        li {
+            margin: 8px 0;
+        }
+
+        /* Form */
+        form {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        fieldset {
+            border: 1px solid #bbb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #123c69;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            width: auto;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #123c69;
+        }
+
+        input[type="reset"] {
+            background-color: #777;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #285f8f;
+        }
+
+        input[type="reset"]:hover {
+            background-color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        footer address {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>Tech-ByteConnect</h1>
+        <p>Your simple gateway to technology, learning, and innovation.</p>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        
+        <section id="home">
+
+            <h2>Welcome to Tech-ByteConnect</h2>
+
+            <p>
+                Explore technology, discover new skills, and connect with
+                opportunities that can help you grow.
+            </p>
+
+            <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+                alt="Computer technology">
+
+            <p>
+                <a href="#contact">Get Started</a>
+            </p>
+
+        </section>
+
+
+        
+        <section id="about">
+
+            <h2>About Us</h2>
+
+            <div>
+                <h3>Who We Are</h3>
+
+                <p>
+                    Tech-ByteConnect is a simple technology platform created
+                    to provide useful information, learning resources, and
+                    opportunities for students and technology enthusiasts.
+                </p>
+            </div>
+
+            <div>
+                <h3>Our Mission</h3>
+
+                <p>
+                    Our mission is to make technology learning simple,
+                    accessible, and useful for everyone.
+                </p>
+            </div>
+
+        </section>
+
+
+        
+        <section id="services">
+
+            <h2>Our Services</h2>
+
+            <div class="services-container">
+
+                <div class="service">
+
+                    <h3>Web Development</h3>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=600&q=80"
+                        alt="Web Development">
+
+                    <p>
+                        Learn how websites are created using HTML and other
+                        web technologies.
+                    </p>
+
+                </div>
+
+
+                <div class="service">
+
+                    <h3>Programming</h3>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=600&q=80"
+                        alt="Programming">
+
+                    <p>
+                        Practice coding and learn the basics of programming
+                        and problem-solving.
+                    </p>
+
+                </div>
+
+
+                <div class="service">
+
+                    <h3>IT Support</h3>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80"
+                        alt="IT Support">
+
+                    <p>
+                        Learn about computers, networks, troubleshooting,
+                        and basic technical support.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="programs">
+
+            <h2>Learning Programs</h2>
+
+            <table>
+
+                <caption>Available Programs</caption>
+
+                <thead>
+                    <tr>
+                        <th>Program</th>
+                        <th>Duration</th>
+                        <th>Level</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>HTML Fundamentals</td>
+                        <td>4 Weeks</td>
+                        <td>Beginner</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Development</td>
+                        <td>8 Weeks</td>
+                        <td>Intermediate</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>Programming Basics</td>
+                        <td>6 Weeks</td>
+                        <td>Beginner</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>Computer Networking</td>
+                        <td>8 Weeks</td>
+                        <td>Intermediate</td>
+                        <td>Available</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            Contact us for more information.
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+        </section>
+
+
+        
+        <section>
+
+            <h2>Why Choose Tech-ByteConnect?</h2>
+
+            <ul>
+                <li>Easy-to-understand lessons</li>
+                <li>Beginner-friendly resources</li>
+                <li>Practical technology topics</li>
+                <li>Accessible learning materials</li>
+            </ul>
+
+            <h3>What You Can Learn</h3>
+
+            <ol>
+                <li>HTML</li>
+                <li>Web Development</li>
+                <li>Programming</li>
+                <li>Networking</li>
+            </ol>
+
+        </section>
+
+
+        
+        <section id="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Fill out the form below to send us your information.
+            </p>
+
+            <form action="#" method="post">
+
+                
+                <fieldset>
+
+                    <legend>Personal Information</legend>
+
+                    <label for="fullname">Full Name:</label>
+
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Enter your full name"
+                        required>
+
+
+                    <label for="email">Email Address:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+
+                    <label for="password">Password:</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password">
+
+
+                    <label for="age">Age:</label>
+
+                    <input
+                        type="number"
+                        id="age"
+                        name="age"
+                        min="1"
+                        max="100">
+
+                </fieldset>
+
+
+                
+                <fieldset>
+
+                    <legend>Preferences</legend>
+
+                    <p>Choose your preferred program:</p>
+
+                    <input
+                        type="radio"
+                        id="html"
+                        name="program"
+                        value="html">
+
+                    <label for="html">
+                        HTML Fundamentals
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="radio"
+                        id="web"
+                        name="program"
+                        value="web">
+
+                    <label for="web">
+                        Web Development
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="radio"
+                        id="programming"
+                        name="program"
+                        value="programming">
+
+                    <label for="programming">
+                        Programming Basics
+                    </label>
+
+
+                    <p>Select your interests:</p>
+
+                    <input
+                        type="checkbox"
+                        id="coding"
+                        name="interest"
+                        value="coding">
+
+                    <label for="coding">Coding</label>
+
+                    <br>
+
+                    <input
+                        type="checkbox"
+                        id="networking"
+                        name="interest"
+                        value="networking">
+
+                    <label for="networking">Networking</label>
+
+                    <br>
+
+                    <input
+                        type="checkbox"
+                        id="webdesign"
+                        name="interest"
+                        value="webdesign">
+
+                    <label for="webdesign">Web Design</label>
+
+
+                    <br><br>
+
+                    <label for="course">
+                        Select a course:
+                    </label>
+
+                    <select id="course" name="course">
+
+                        <option value="">
+                            -- Select a Course --
+                        </option>
+
+                        <option value="html">
+                            HTML Fundamentals
+                        </option>
+
+                        <option value="web">
+                            Web Development
+                        </option>
+
+                        <option value="programming">
+                            Programming Basics
+                        </option>
+
+                        <option value="networking">
+                            Computer Networking
+                        </option>
+
+                    </select>
+
+
+                    <label for="message">Message:</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here"></textarea>
+
+
+                    <label for="date">
+                        Preferred Contact Date:
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date">
+
+
+                    <label for="phone">
+                        Phone Number:
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="09XXXXXXXXX">
+
+                </fieldset>
+
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    
+    <footer>
+
+        <p>
+            &copy; 2026 Tech-ByteConnect. All Rights Reserved.
+        </p>
+
+        <address>
+            Email: info@tech-byteconnect.com<br>
+            Phone: 0912-345-6789<br>
+            Philippines
+        </address>
+
+    </footer>
+
+</body>
+</html>
